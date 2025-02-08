@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
+	//int[][] array = new int[][];
+	
 	int a, b,summ;
 	cout << "Enetr number one" << endl;
 	cin >> a;
