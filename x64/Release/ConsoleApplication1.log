@@ -1,0 +1,7 @@
+﻿  app.cpp
+D:\project_C++\ConsoleApplication1\ConsoleApplication1\app.cpp(9,6): warning C4101: sizeArray: неиспользованная локальная переменная
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  ConsoleApplication1.vcxproj -> D:\project_C++\ConsoleApplication1\x64\Release\ConsoleApplication1.exe
