@@ -5,8 +5,10 @@ using namespace std;
 
 
 int main() {
+	
+	// имя переменной не может начинаться с цыфр
 
-	int 123number;
+	int number_123;
 
 
 	return 0;
