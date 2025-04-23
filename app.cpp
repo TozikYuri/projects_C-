@@ -1,14 +1,22 @@
-Ôªø#include<iostream>
+#include<iostream>
 
 using namespace std;
 
-
-
 int main() {
-	
-	// –∏–º—è –ø–µ—Ä–µ–º–µ–Ω–Ω–æ–π –Ω–µ –º–æ–∂–µ—Ç –Ω–∞—á–∏–Ω–∞—Ç—å—Å—è —Å —Ü—ã—Ñ—Ä
 
-	int number_123;
+  	int numberOne, numberTwo;
+	int summa;
+
+	setlocale(LC_ALL,"ru");
+
+	cout << "¬‚Â‰ËÚÂ ÔÂ‚ÓÂ ˜ËÒÎÓ" << endl;
+	cin>> numberOne;
+	cout << "¬‚Â‰ËÚÂ ‚ÚÓÓÂ ˜ËÒÎÓ " << endl;
+	cin >> numberTwo;
+
+	if (numberOne == numberTwo) cout << "1=2" << endl;
+	else if (numberOne > numberTwo)cout << "1>2" << endl;
+	else cout << "2>1" << endl;
 
 
 	return 0;
