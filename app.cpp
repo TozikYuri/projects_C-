@@ -9,9 +9,9 @@ int main() {
 
 	setlocale(LC_ALL,"ru");
 
-	cout << "¬ведите первое число" << endl;
-	cin>> numberOne;
-	cout << "¬ведите второе число " << endl;
+	cout << "Enter number one " << endl;
+	cin>> numberOne ;
+	cout << "Enter number two" << endl;
 	cin >> numberTwo;
 
 	if (numberOne == numberTwo) cout << "1=2" << endl;
