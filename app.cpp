@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	setlocale(LC_ALL,"ru");
+	setlocale(0,"ru");
 	
 	float sum=0;
 
@@ -24,6 +24,10 @@ int main() {
 	cout << "\nСумма отрицательных элементов массива:"<<sum<< endl;
 	cout << "Max:" << max << endl;
 	cout << "Min" << min << endl;
+
+	for (float n = max; n <= size(array);) {
+
+	}
 	
 
 	return 0;
